@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    height: 50px;
+    padding: 0 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoMegogo, 
+.menu-item-link,
+.menu-item-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.three-doths {
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+    color: gray;
+}
+
+.doth {
+    margin-top: -10px;
+}
+
+.menu-right {
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tariffs {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 30px;
+}
+
+.search, 
+.lang, 
+.login {
+    margin-right: 10px;
+}
+
+.search {
+    padding-left: 10px;
+}
+
+.lang {
+    color: gray;
+}
+
+.main {
+    background: url(../img/avatar.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: white;
+}
+
+.main-top {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 25px;
+    font-size: 1.7em;
+    background: rgba(77, 134, 219, 0.7);
+}
+
+.main-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px ;
+}
+
+.main-bottom-img {
+    margin-left: 30px;
+}
+
+.main-bottom-menu {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.main-bottom-menu-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main-bottom-menu-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-bottom-menu-buttons-play-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-bottom-menu-top-textBlue {
+    color: aqua;
+}
+
+.main-bottom-menu-nameMoves {
+    font-size: 2.2em;
+}
+
+.main-bottom-menu-buttons-play-main {
+    display: flex;
+    flex-direction: row;
+    background: orangered;
+    border-radius: 5px;
+}
+
+.main-bottom-menu-buttons-play-main-text {
+    margin-left: 20px;
+}
+
+.main-bottom-menu-buttons-letsgo-main {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.main-bottom-menu-buttons-item {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.main-bottom-menu-buttons-item-main {
+    font-size: 1.5em;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.menu-item:hover {
+    background: white;
+}
+
+.menu-item-text:hover,
+.search-icon:hover,
+.login:hover {
+    color: tomato;
+}
+
+.tariffs:hover {
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+.lang:hover {
+    color: white;
+}
+
+.main-bottom-menu-buttons-play-main:hover {
+    background: #ff2600;
+}
+
+.main-bottom-menu-buttons-letsgo-i:hover {
+    color: tomato;
+}
+
+.main-bottom-menu-buttons-handUp:hover {
+    color: #94f01c;
+}
+
+.main-bottom-menu-buttons-handDown:hover {
+    color: #ff2600;
+}
+
+.discrip {
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+.discrip-menu-list {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+.discrip-menu-list-item {
+    margin-right: 30px;
+}
+
+.discrip-menu-list-item-link,
+.discrip-menu-list-item-link1 {
+    color: #333333B3;
+    font-weight: 700;
+}
+.discrip-menu-list-item1 {
+    border-bottom: 3px solid #f36615;
+}
+
+.discrip-menu-list-item-link:hover {
+    color: tomato;
+}
+
+.discrip-menu-list-item-link1 {
+    color: black;
+}
+
+.discrip-menu2-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 1.35em;
+}
+
+.discrip-menu2-item:nth-child(odd) {
+    margin-right: 0.5em;
+}
+
+.discrip-menu2-item-link {
+    color: black;
+}
+
+.discrip-menu2-item-link:hover {
+    color: tomato;
+}
+
+.discrip-text-fullHD {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: gray;
+}
+
+.fullHd {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.fullHDminute {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.discrip-text-text {
+    margin-top: 30px;
+    width: 70%;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.discrip-social {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.discrip-social-fb,
+.discrip-social-twitter {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 25px 5px 15px;
+    width: 30px;   
+}
+
+.discrip-social-fb {
+    color: #173892;
+}
+
+.discrip-social-twitter {
+    color:#3bc3ec;
+}
+
+.discrip-social-fb-link {
+    margin-right: 20px;
+}
+
+.discrip-social-fb:hover {
+    background: #173892;
+    border-radius: 5px;
+    color: white;
+}
+
+.discrip-social-twitter:hover {
+    background: #3bc3ec;
+    border-radius: 5px;
+    color: white;
+}
