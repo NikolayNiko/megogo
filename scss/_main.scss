@@ -1,0 +1,112 @@
+.main {
+    background: url(../img/avatar.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: white;
+}
+
+.main-top {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 25px;
+    font-size: 1.7em;
+    background: rgba(77, 134, 219, 0.7);
+}
+
+.main-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px ;
+}
+
+.main-bottom-img {
+    margin-left: 30px;
+}
+
+.main-bottom-menu {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.main-bottom-menu-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main-bottom-menu-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-bottom-menu-buttons-play-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-bottom-menu-top-textBlue {
+    color: aqua;
+}
+
+.main-bottom-menu-nameMoves {
+    font-size: 2.2em;
+}
+
+.main-bottom-menu-buttons-play-main {
+    display: flex;
+    flex-direction: row;
+    background: orangered;
+    border-radius: 5px;
+}
+
+.main-bottom-menu-buttons-play-main-text {
+    margin-left: 20px;
+}
+
+.main-bottom-menu-buttons-letsgo-main {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.main-bottom-menu-buttons-item {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.main-bottom-menu-buttons-item-main {
+    font-size: 1.5em;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.main-bottom-menu-buttons-play-main:hover {
+    background: #ff2600;
+}
+
+.main-bottom-menu-buttons-letsgo-i:hover {
+    color: tomato;
+}
+
+.main-bottom-menu-buttons-handUp:hover {
+    color: #94f01c;
+}
+
+.main-bottom-menu-buttons-handDown:hover {
+    color: #ff2600;
+}

@@ -1,0 +1,99 @@
+.header {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    height: 50px;
+    padding: 0 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoMegogo, 
+.menu-item-link,
+.menu-item-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.three-doths {
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+    color: gray;
+}
+
+.doth {
+    margin-top: -10px;
+}
+
+.menu-right {
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tariffs {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 30px;
+}
+
+.search, 
+.lang, 
+.login {
+    margin-right: 10px;
+}
+
+.search {
+    padding-left: 10px;
+}
+
+.lang {
+    color: gray;
+}
+
+.menu-item:hover {
+    background: white;
+}
+
+.menu-item-text:hover,
+.search-icon:hover,
+.login:hover {
+    color: tomato;
+}
+
+.tariffs:hover {
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+.lang:hover {
+    color: white;
+}
