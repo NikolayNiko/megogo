@@ -1,7 +1,6 @@
+
 .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex(center, center);
     background: black;
     height: 50px;
     padding: 0 10px;
@@ -11,9 +10,8 @@
 
 .header__menu {
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex(center, center);
+    
     
 }
 
@@ -21,16 +19,16 @@
 .menu-item-link,
 .menu-item-text {
     height: 100%;
-    display: flex;
+    @include flex(center, center);
+    // display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     color: white;
 }
 
 .menu-items {
     display: flex;
-    flex-direction: row;
-    
+     
     padding: 0 10px;
     height: 100%;
 }
@@ -42,7 +40,7 @@
 
 .three-doths {
     display: flex;
-    flex-direction: row;
+    
     font-weight: 900;
     color: gray;
 }
@@ -87,12 +85,12 @@
 .menu-item-text:hover,
 .search-icon:hover,
 .login:hover {
-    color: tomato;
+    color: $fontcolor;
 }
 
 .tariffs:hover {
-    border: 1px solid tomato;
-    color: tomato;
+    border: 1px solid $fontcolor;
+    color: $fontcolor;
 }
 
 .lang:hover {

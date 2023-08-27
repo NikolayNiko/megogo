@@ -1,0 +1,7 @@
+$fontcolor: tomato;
+
+@mixin flex($js, $ai){
+    display: flex;
+    justify-content: $js;
+    align-items: $ai;
+}  
